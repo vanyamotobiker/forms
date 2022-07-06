@@ -30,6 +30,7 @@ body{
 .red_form{
    width: 318px;
    height: 30px;
+   padding-left: 10px;
    background: #FFFFFF;
    border: 1px solid #E24429;
    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
@@ -38,6 +39,7 @@ body{
 .grey_form{
    width: 318px;
    height: 30px;
+   padding-left: 10px;
    background: #FFFFFF;
    border: 1px solid #E5E5E5;
    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
@@ -133,9 +135,22 @@ button{
    letter-spacing: 0.05em;
    color: #FFFFFF;
 }
+.privacy_policy{
+   font-family: 'TT Commons';
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.05em;
+   color: #C4C4C4;
+}
 
 .privacy_policy a{
    text-decoration: none;
    color: #E24423;
-
 }  
+.footer_checkbox{
+   display: flex;
+}
+.ckeckbox_prvacy_policy{
+   margin-bottom: 27px;
+   
+}
