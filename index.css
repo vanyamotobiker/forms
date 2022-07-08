@@ -5,17 +5,19 @@
 }
 
 .first_form{
-   border: 20px solid red;
+   position: relative;
+   border: 15px solid red;
+   width: 1410px;
    
-   position: relative; 
+  
   
 
 }
 .header img{
-   position:absolute;
-   top: -20px;
-   left: -20px;
-   width: 100%;
+   position: absolute;
+   top: -15px;
+   left: -15px;
+   width: 1440px;
   
   
 }
