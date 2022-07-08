@@ -1,26 +1,34 @@
-body{
-   border: 20px solid red;
-   max-width: 1440px;
-   max-height: 900px;
-   margin: 0;
+.form_flex{
+   display: flex;
+   justify-content: center;
    
 }
-.header img{
-   display: block;
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   min-width: 1480px;
+
+.first_form{
+   border: 20px solid red;
+   
+   position: relative; 
+  
+
 }
+.header img{
+   position:absolute;
+   top: -20px;
+   left: -20px;
+   width: 100%;
+  
+  
+}
+   
+
 .logo img{
    display: block;
-   position: absolute;
-   left: 61px;
-   top: 100px;
+ 
+   
    
 
 }
-.form {
+.form1 {
    display: flex;
    flex-direction: column ; 
    max-width: 318px;
