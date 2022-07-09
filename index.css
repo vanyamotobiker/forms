@@ -1,34 +1,28 @@
-.form_flex{
-   display: flex;
-   justify-content: center;
-   
+:root {
+   --container-width: 1440px;
+   --main-red: #E24425;
+}
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
 }
 
-.first_form{
-   position: relative;
-   border: 15px solid red;
-   width: 1410px;
-   
-  
-  
-
+.page-container{
+   margin: auto;
+   max-width: var(--container-width);
+   border: 15px solid var(--main-red);
+   border-top: none;
 }
-.header img{
-   position: absolute;
-   top: -15px;
-   left: -15px;
-   width: 1440px;
-  
-  
+.header {
+   margin: auto;
+   max-width: var(--container-width);
+   height: 60px;
+   background: url(img/Group.png);
 }
    
-
 .logo img{
    display: block;
- 
-   
-   
-
 }
 .form1 {
    display: flex;
@@ -42,7 +36,7 @@
    height: 30px;
    padding-left: 10px;
    background: #FFFFFF;
-   border: 1px solid #E24429;
+   border: 1px solid var(--main-red);
    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
    border-radius: 10px;
 }
@@ -66,9 +60,7 @@ label{
    color: #C4C4C4;
 }
 label span{
-   color: #E24429;
-   
-
+   color: var(--main-red);
 }
 .Colaborators{
    display: flex;
@@ -118,7 +110,7 @@ label span{
    transition: .4s;
  }
  input:checked + .slider {
-   background-color: #E24423;
+   background-color: var(--main-red);
  }
  input:checked + .slider:before {
    -webkit-transform: translateX(-20px);
@@ -135,7 +127,7 @@ button{
    border: none;
    width: 318px;
    height: 50px;
-   background: #E24429;
+   background: var(--main-red);
    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
    border-radius: 25px;
    font-family: 'TT Commons';
@@ -155,7 +147,7 @@ button{
 
 .privacy_policy a{
    text-decoration: none;
-   color: #E24423;
+   color: var(--main-red);
 }  
 .footer_checkbox{
    display: flex;
